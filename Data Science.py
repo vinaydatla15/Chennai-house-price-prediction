@@ -7,6 +7,41 @@ Original file is located at
     https://colab.research.google.com/drive/1vrMNjFDivKw3V6gKJTMinghB0dz9jK_o
 """
 
+"""
+Project Title: Chennai Housing Price Prediction
+
+Objective:
+This project aims to analyze and predict housing prices in Chennai using various machine learning models. 
+The dataset contains details about properties, including location, size, age, and other features, 
+with the goal of building a model that can accurately estimate house prices.
+
+Key Steps:
+
+Data Cleaning & Preprocessing:
+Handle missing values and inconsistencies.
+Standardize column names and categorical values.
+
+Exploratory Data Analysis (EDA):
+Analyze feature distributions and correlations.
+Visualize relationships between variables and target price.
+
+Feature Engineering & Encoding:
+Create new relevant features (e.g., property age).
+Convert categorical variables into numerical representations.
+
+Model Selection & Training:
+Train various regression models (Linear Regression, Decision Trees, Random Forest, Gradient Boosting, XGBoost, etc.).
+Split data into training and testing sets.
+Scale features using MinMaxScaler and StandardScaler.
+
+Evaluation & Optimization:
+Use metrics like RMSE and R² to evaluate model performance.
+Optimize hyperparameters using GridSearchCV.
+
+Outcome:
+A predictive model capable of estimating housing prices in Chennai based on property features, 
+which can be useful for buyers, sellers, and real estate professionals"""
+
 # Commented out IPython magic to ensure Python compatibility.
 import pandas as pd
 import numpy as np
